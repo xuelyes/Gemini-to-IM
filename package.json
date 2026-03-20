@@ -7,7 +7,7 @@
     "build": "node scripts/build.js",
     "typecheck": "tsc --noEmit",
     "dev": "tsx src/main.ts",
-    "test": "CTI_HOME=$(mktemp -d) node --test --import tsx --test-timeout=15000 src/__tests__/*.test.ts"
+    "test": "node scripts/test.js"
   },
   "dependencies": {
     "@anthropic-ai/claude-agent-sdk": "^0.2.62",
