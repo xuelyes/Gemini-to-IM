@@ -1,0 +1,7 @@
+interface:
+  display_name: "Gemini to IM"
+  short_description: "Bridge Gemini CLI to chat apps"
+  default_prompt: "Use $gemini-to-im to set up or operate the Gemini CLI bridge for Telegram, Discord, Feishu/Lark, or QQ."
+
+policy:
+  allow_implicit_invocation: true
